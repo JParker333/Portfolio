@@ -105,6 +105,11 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   top: 0;
 }
 
+
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy');
+
+
+
 .probootstrap-logo {
   float: left;
   color:#ea227f38;
@@ -113,8 +118,8 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 	transform: rotate(-18deg);
 	opacity: 3.7;
   display: block;
-  font-weight: 100;
-	font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+	font-family: 'Luckiest Guy', cursive;
 }
 
 .probootstrap-logo:hover, .probootstrap-logo:focus, .probootstrap-logo:active {
@@ -558,22 +563,18 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 }
 
 .probootstrap-footer {
-  position: fixed;
-  z-index: 1;
-  bottom: 0;
-  height: 300px;
-  background: #F1F6F8;
-  width: 100%;
-  left: 0;
-  padding-top: 100px;
-  text-align: center;
+	position:relative;
+	/* height:inherit; */
+	/* padding:7em 0; */
+	background-color: #ea227f38;
+	text-align: center;
 }
 
 @media screen and (max-width: 768px) {
   .probootstrap-footer {
     position: relative;
     height: inherit;
-    padding: 7em 0;
+		padding: 7em 0;
   }
 }
 
