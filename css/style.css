@@ -102,7 +102,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   width: 100%;
   z-index: 12;
   position: absolute;
-  top: 0;
+	top: 0;
 }
 
 
@@ -120,6 +120,8 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   display: block;
   font-weight: bold;
 	font-family: 'Luckiest Guy', cursive;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: black;
 }
 
 .probootstrap-logo:hover, .probootstrap-logo:focus, .probootstrap-logo:active {
@@ -288,7 +290,9 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 }
 
 .probootstrap-main-nav li.active a {
-  color: #ea227f38;
+	color: #ea227f38;
+	-webkit-text-stroke-width: 0.2px;
+	-webkit-text-stroke-color: black;
 }
 
 .probootstrap-main-nav li.active a:hover {
@@ -468,7 +472,8 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 .btn.btn-primary {
   border: 2px solid #ea227f38;
   background: #ea227f38;
-  color: #ffffff;
+	color: #ffffff;
+	float: right;
 }
 
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
@@ -701,7 +706,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 }
 
 .service .icon i {
-  color: #ea227f38;
+	color: #ea227f38;
 }
 
 .probootstrap-animate {
